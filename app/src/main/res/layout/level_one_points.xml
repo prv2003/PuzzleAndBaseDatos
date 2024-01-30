@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/cabecera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Puntuaciones del Nivel 1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <ListView
+            android:id="@+id/puntuacionesListaUno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/cabecera"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:padding="16dp"
+            android:background="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/menuButtonAtras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/lightblue"
+            android:text="VOLVER AL MENÚ"
+            app:cornerRadius="0dp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

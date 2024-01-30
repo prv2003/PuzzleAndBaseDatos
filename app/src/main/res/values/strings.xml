@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PuzzleAndBaseDatos</string>
+    <string name="instrucciones">Ordena el Puzzle %1$s de la PERSONA</string>
+    <string name="intentos">Intentos: %d</string>
+</resources>
