@@ -30,78 +30,45 @@
             android:orientation="horizontal"
             android:rowCount="2">
 
-
             <ImageButton
                 android:id="@+id/imageButton1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/imagen1"/>
+                style="@style/PuzzleButton"
+                android:src="@drawable/imagen1" />
 
             <ImageButton
                 android:id="@+id/imageButton2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/imagen2" />
+                style="@style/PuzzleButton"
+                android:src="@drawable/imagen2" />
 
             <ImageButton
                 android:id="@+id/imageButton3"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/imagen3" />
+                style="@style/PuzzleButton"
+                android:src="@drawable/imagen3" />
 
             <ImageButton
                 android:id="@+id/imageButton4"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/imagen4" />
+                style="@style/PuzzleButton"
+                android:src="@drawable/imagen4" />
 
             <ImageButton
                 android:id="@+id/imageButton5"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/imagen5" />
+                style="@style/PuzzleButton"
+                android:src="@drawable/imagen5" />
 
             <ImageButton
                 android:id="@+id/imageButton6"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/imagen6" />
+                style="@style/PuzzleButton"
+                android:src="@drawable/imagen6" />
 
             <ImageButton
                 android:id="@+id/imageButton7"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/imagen7" />
+                style="@style/PuzzleButton"
+                android:src="@drawable/imagen7" />
 
             <ImageButton
                 android:id="@+id/imageButton8"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/imagen8" />
+                style="@style/PuzzleButton"
+                android:src="@drawable/imagen8" />
 
         </GridLayout>
         <TextView

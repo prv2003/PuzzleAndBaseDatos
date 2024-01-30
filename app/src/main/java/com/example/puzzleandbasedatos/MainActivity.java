@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //mediaPlayer = MediaPlayer.create(this, R.raw.musicaTitanium);
+        mediaPlayer = MediaPlayer.create(this, R.raw.musica_titanium);
         editNombre = findViewById(R.id.nombreET);
         Button btnEmpezar = findViewById(R.id.btnStart);
         Button btnPuntuaciones = findViewById(R.id.btnPuntos);
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Por favor, ingrese su nombre", Toast.LENGTH_SHORT).show();
                 }
 
-                //toggleMusic();
+                toggleMusic();
             }
         });
 
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, MenuPuntuaciones.class);
                 startActivity(intent);
 
-                //toggleMusic();
+                toggleMusic();
             }
         });
     }
